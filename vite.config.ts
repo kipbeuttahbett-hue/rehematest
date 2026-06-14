@@ -6,8 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     lovableViteConfig({
-      nitro: true, // This is the magic line that fixes the 404!
+      nitro: true, 
     }),
   ],
-  // ... rest of the file
 });
