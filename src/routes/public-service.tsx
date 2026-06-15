@@ -84,3 +84,4 @@ function PublicService() {
     </PageShell>
   );
 }
+export default PublicService

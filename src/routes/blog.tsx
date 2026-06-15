@@ -104,3 +104,4 @@ function Blog() {
     </PageShell>
   );
 }
+export default Blog

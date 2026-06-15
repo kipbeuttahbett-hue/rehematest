@@ -103,3 +103,4 @@ function MyStory() {
     </PageShell>
   );
 }
+export default MyStory

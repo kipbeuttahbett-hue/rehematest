@@ -110,3 +110,4 @@ function Media() {
     </PageShell>
   );
 }
+export default Media

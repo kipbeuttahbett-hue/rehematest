@@ -174,3 +174,4 @@ function Home() {
     </div>
   );
 }
+export default Index

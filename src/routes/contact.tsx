@@ -109,3 +109,4 @@ function Field({ label, id, type = "text" }: { label: string; id: string; type?:
     </div>
   );
 }
+export default Contact
