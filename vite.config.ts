@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
+  base: "./", // Add this line! It fixes blank screens.
   plugins: [react()],
   resolve: {
     alias: {
@@ -10,6 +11,6 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "dist", // This ensures Vercel finds the files in 'dist'
+    outDir: "dist",
   }
 });
